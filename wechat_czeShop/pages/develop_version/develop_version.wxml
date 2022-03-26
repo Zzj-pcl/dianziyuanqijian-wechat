@@ -1,0 +1,15 @@
+<!--pages/develop_version/develop_version.wxml-->
+
+<view>
+<map id="map" longitude="110.29436588287354" latitude="25.28380718044416" scale="16" controls="{{controls}}" bindcontroltap="controltap" markers="{{markers}}" bindmarkertap="markertap" polyline="{{polyline}}" bindregionchange="regionchange" show-location style="width: 100%; height: 300px;"></map>
+</view>
+
+<view>
+    <text>版本号： 1.3.0</text>
+</view>
+<view>
+    <text>开发者： 车秩恩</text>
+</view> 
+<view>  
+    <text>商城系统信息简介： 此商城可提供给广大用户采购电子元器件。</text>
+</view>
